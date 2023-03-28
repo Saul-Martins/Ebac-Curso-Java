@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+  inteiro hora, minuto, segundo, opcao
+
+  escreva("Olá, vamos testar o código!\n\n")
+  escreva("Digite a hora do alarme: ")
+  leia(hora)
+
+  enquanto(hora < 7){
+    escreva("*zzzzz* Você ainda não pode acordar!")
+    escreva("\nDigite a hora do alarme novamente: ")
+    leia(hora)
+    
+  }
+
+  se(hora >= 7){
+    escreva("BIP BIP BIP BIP\nHora de acordar!\n")
+    escreva("*Você abre os olhos*\n")
+    escreva("*Olha para o despertador*\n")
+    escreva("*Da uma  leve respirada*\n")
+    escreva("*Você tem 2 opções\n1) dormir de volta e faltar o trabalho\n2) ir comer algo para se arrumar*\nDe acordo com a questão de cima, escolha a opção 1 ou a 2: ")
+    leia(opcao)
+    se(opcao == 1){
+      escreva("\n\nVocê fecha os olhos e dane-se o trabalho, você dorme.")
+    }senao se(opcao == 2){
+      escreva("\n\nDia chato, vamos lá.")
+    }senao{
+      escreva("\n\nOpcao inválida")
+    }
+  }
+  
+
+}
