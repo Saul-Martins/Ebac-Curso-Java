@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-  inteiro hora, minuto, segundo, opcao
+  inteiro hora, opcao
 
   escreva("Olá, vamos testar o código!\n\n")
   escreva("Digite a hora do alarme: ")
