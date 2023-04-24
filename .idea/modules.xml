@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mod15/CadastroCliente/CadastroCliente.iml" filepath="$PROJECT_DIR$/Mod15/CadastroCliente/CadastroCliente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod10/Mod10.iml" filepath="$PROJECT_DIR$/Mod10/Mod10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod11/Mod11.iml" filepath="$PROJECT_DIR$/Mod11/Mod11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod12/Mod12.iml" filepath="$PROJECT_DIR$/Mod12/Mod12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod13/Mod13.iml" filepath="$PROJECT_DIR$/Mod13/Mod13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod15/Mod15.iml" filepath="$PROJECT_DIR$/Mod15/Mod15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod17/Mod17.iml" filepath="$PROJECT_DIR$/Mod17/Mod17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod20/Mod20.iml" filepath="$PROJECT_DIR$/Mod20/Mod20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod5/Mod5.iml" filepath="$PROJECT_DIR$/Mod5/Mod5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod8/Mod8.iml" filepath="$PROJECT_DIR$/Mod8/Mod8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mod9/Mod9.iml" filepath="$PROJECT_DIR$/Mod9/Mod9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarefas-ebac/tarefas-ebac.iml" filepath="$PROJECT_DIR$/tarefas-ebac/tarefas-ebac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tarefas-ebac-saul.iml" filepath="$PROJECT_DIR$/.idea/tarefas-ebac-saul.iml" />
+    </modules>
+  </component>
+</project>
