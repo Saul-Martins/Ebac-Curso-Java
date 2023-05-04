@@ -1,0 +1,29 @@
+public class ContratoServiceTest {
+
+    // Métodos de teste existentes
+
+    @Test
+    public void buscarTest() {
+        IContratoDao dao = new ContratoDaoMock();
+        IContratoService service = new ContratoService(dao);
+        String retorno = service.buscar(1);
+        Assert.assertEquals("Contrato [id=1, valor=R$ 100,00]", retorno);
+    }
+
+    @Test
+    public void excluirTest() {
+        IContratoDao dao = new ContratoDaoMock();
+        IContratoService service = new ContratoService(dao);
+        String retorno = service.excluir(1);
+        Assert.assertEquals("Contrato excluído com sucesso", retorno);
+    }
+
+    @Test
+    public void atualizarTest() {
+        IContratoDao dao = new ContratoDaoMock();
+        IContratoService service = new ContratoService(dao);
+        String retorno = service.atualizar(1, "R$ 200,00");
+        Assert.assertEquals("Contrato atualizado com sucesso", retorno);
+    }
+}
+	
