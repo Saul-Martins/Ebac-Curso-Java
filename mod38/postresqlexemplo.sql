@@ -1,0 +1,7 @@
+CREATE TABLE cadastro (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    idade INTEGER NOT NULL,
+    endereco VARCHAR(255) NOT NULL
+);
