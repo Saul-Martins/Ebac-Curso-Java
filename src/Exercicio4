@@ -1,0 +1,31 @@
+Pilha:
+
+O método "push" possui uma complexidade de tempo O(1), pois estamos simplesmente adicionando um elemento no topo da pilha. Nao ha iteracoes ou operacoes que dependam do tamanho da pilha.
+
+O método "pop" também possui uma complexidade de tempo O(1), pois estamos apenas removendo o elemento do topo da pilha. Novamente, nao ha iteracoes ou operacoes que dependam do tamanho da pilha.
+
+Quanto à complexidade de espaco da pilha, ela é O(n), onde n é o número de elementos presentes na pilha. Cada elemento ocupará um espaco na memoria.
+
+Fila:
+
+O método "enqueue" possui uma complexidade de tempo O(1), pois estamos apenas adicionando um elemento no final da fila. Assim como na pilha, nao ha iteracoes ou operacoes que dependam do tamanho da fila.
+
+O método "dequeue" também possui uma complexidade de tempo O(1), pois estamos apenas removendo um elemento do início da fila. Novamente, nao ha iteracoes ou operacoes que dependam do tamanho da fila.
+
+Ja os métodos "rear" e "front" têm complexidade de tempo O(1), pois retornam o elemento no final e no inicio da fila, respectivamente. Assim como nos outros métodos, nao ha iteracoes ou operacoes que dependam do tamanho da fila.
+
+Quanto à complexidade de espaco da fila, ela também é O(n), onde n é o número de elementos presentes na fila. Cada elemento ocupará um espaco na memoria.
+
+Lista Encadeada:
+
+O método "push" possui uma complexidade de tempo O(1), pois estamos apenas adicionando um nó no fim da lista. Novamente, nao ha iteracoes ou operacoes que dependam do tamanho da lista.
+
+O método "pop" possui uma complexidade de tempo O(n), pois para remover o último nó da lista, precisamos percorrer a lista até o penúltimo nó. O tempo necessário aumenta linearmente com o tamanho da lista.
+
+O método "insert" também possui uma complexidade de tempo O(n), pois, em média, precisamos percorrer metade da lista para encontrar a posição de insercao. O tempo necessário aumenta linearmente com o tamanho da lista.
+
+O método "remove" tem uma complexidade de tempo O(n), pois, em média, precisamos percorrer metade da lista para encontrar o nó a ser removido. O tempo necessário também aumenta linearmente com o tamanho da lista.
+
+Por fim, o método "elementAt" possui uma complexidade de tempo O(n), pois precisamos percorrer a lista até o nó desejado. O tempo necessário aumenta linearmente com o tamanho da lista.
+
+Quanto à complexidade de espaco da lista encadeada, ela é O(n), onde n é o número de elementos presentes na lista. Cada nó ocupará um espaco na memoria.
